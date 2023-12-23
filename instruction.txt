@@ -1,0 +1,12 @@
+dotnet new sln -n FormulaAirline
+dotnet new webapi -n "FormulaAirline.API"
+dotnet sln FormulaAirline.sln add FormulaAirline.API/FormulaAirline.API.csproj
+dotnet build
+dotnet new console -n "FormulaAirline.TicketProcessing"
+dotnet sln FormulaAirline.sln add FormulaAirline.TicketProcessing/FormulaAirline.TicketProcessing.csproj
+dotnet build
+code .
+
+cd FormulaAirline.API
+dotnet add package RabbitMQ.Client
+cd..

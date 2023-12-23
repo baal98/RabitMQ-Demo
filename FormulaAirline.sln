@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaAirline.API", "FormulaAirline.API\FormulaAirline.API.csproj", "{9F13E305-8BAC-4044-9538-9EA8E3224500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaAirline.TicketProcessing", "FormulaAirline.TicketProcessing\FormulaAirline.TicketProcessing.csproj", "{B032D5B6-4BC4-46D1-A591-8B66F1667C44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F13E305-8BAC-4044-9538-9EA8E3224500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F13E305-8BAC-4044-9538-9EA8E3224500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F13E305-8BAC-4044-9538-9EA8E3224500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F13E305-8BAC-4044-9538-9EA8E3224500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B032D5B6-4BC4-46D1-A591-8B66F1667C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032D5B6-4BC4-46D1-A591-8B66F1667C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B032D5B6-4BC4-46D1-A591-8B66F1667C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B032D5B6-4BC4-46D1-A591-8B66F1667C44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
